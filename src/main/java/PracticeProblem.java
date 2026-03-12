@@ -1,3 +1,9 @@
+/**
+	* File: Lesson 2.2: Characters
+	* Author: Weiya liu
+	* Date Created: March 11, 2026
+	* Date Last Modified: March 11, 2026
+	*/
 public class PracticeProblem {
 
 	public static void main(String args[]) {
@@ -25,7 +31,7 @@ public class PracticeProblem {
 	}
 
 	public static int combinedLength(String a, String b) {
-		String ab = a + " " + b;
-		return ab;
+		String ab = a+b;
+		return ab.length();
 	}
 }
